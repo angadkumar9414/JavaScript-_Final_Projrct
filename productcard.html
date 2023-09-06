@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+    <title>Shopping App</title>
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="logo"><a href="./index.html"><span>Shop</span>lane</a></div>
+                <a href="./index.html#clothing-section">Clothing</a>
+                <a href="./index.html#accessory-section">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+            </div>
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <!-- <img src="/assets/avatar.jpg" /> -->
+            </div>
+            <div class="log-in">
+                <button type="button" id="login-btn"> Log In</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="product-wrapper">
+            <div id="best-stamp">
+                <img src="../public/best stamp1.png" alt="">
+            </div>
+            <section id="product">
+                <div class="left-column">
+                    <img id="productImg" src="" />
+                </div>
+                <div class="right-column">
+                    <div class="product-description">
+                        <h1 id="name"></h1>
+                        <h4 id="brand"></h4>
+                        <h3 id="price"></h3>
+
+                        <div class="product-description">
+                            <h3>Description</h3>
+                            <p id="description"></p>
+                        </div>
+
+                        <div class="product-preview">
+                            <h3>Product Preview</h3>
+                            <div class="previewImg" id="previewImages">
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button id="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="./base.js"></script>
+    <script src="./product.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>

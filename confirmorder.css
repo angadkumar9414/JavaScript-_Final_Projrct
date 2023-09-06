@@ -1,0 +1,20 @@
+div#confirmImgMsg {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+img#confirm-imgae {
+    /* border: 1px solid black; */
+    height: 400px;
+}
+p#cofirnm-message {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 5px;
+    margin: 0px;
+    /* position: relative;
+    bottom: 55%; */
+}
